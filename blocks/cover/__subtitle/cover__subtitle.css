@@ -1,0 +1,13 @@
+.cover__subtitle {
+    width: 360px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin: 32px auto 245px;
+    z-index: 1;
+}
