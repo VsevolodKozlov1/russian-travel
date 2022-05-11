@@ -8,6 +8,15 @@
     text-align: center;
     color: #FFFFFF;
 
-    margin: 32px auto 245px;
+    margin: 32px auto 0;
     z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        width: 288px;
+        margin: 16px auto 0;
+        font-size: 14px;
+        line-height: 1.14;
+    }
 }

@@ -9,11 +9,20 @@
 @media screen and (max-width: 1024px) {
     .lead {
         width: 928px;
+        margin: 48px auto 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
         width: 768px;
+        margin: 48px auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        width: 320px;
+        margin: 48px auto 0;
     }
 }
