@@ -2,6 +2,8 @@
     margin-right: auto;
     transition: opacity .3s linear;
     justify-self: start;
+    width: 176px;
+    height: 52px;
 }
 
 .header__logo:hover {
