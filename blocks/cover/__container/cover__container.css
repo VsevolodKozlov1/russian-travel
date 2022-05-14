@@ -1,0 +1,12 @@
+.cover__container {
+    align-self: center;
+    margin: 0 auto;
+    max-width: 560px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__container {
+        max-width: 90%;
+    }
+}

@@ -5,29 +5,28 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: contain;
     display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+.cover:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
     .cover {
-        width: 1024px;
-        height: 640px;
+        width: 100%;
+        height: calc(100vw / 1184 * 740);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover {
-        margin: 90px auto 0;
-        width: 768px;
-        height: 480px;
+        margin-top: 90px;
     }
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover {
-        margin: 66px auto 0;
-        width: 320px;
-        height: 200px;
+        margin-top: 66px;
     }
 }
