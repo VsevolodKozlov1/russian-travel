@@ -4,11 +4,15 @@
     font-size: 72px;
     line-height: 1.06;
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto 0;
+    max-width: 560px;
+    width: 100%;
+    z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
     .cover__title {
+        max-width: 90%;
         font-size: 32px;
         line-height: 1.09;
     }
